@@ -1,0 +1,8 @@
+# Filter list:
+# Lines beginning with '#' are ignored
+# Leading and trailing whitespace ignored
+# One filter per line, in regexp format
+based
+cringe?
+pog(gers|champ)?
+\w+pill(ed)?

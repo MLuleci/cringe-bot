@@ -1,0 +1,15 @@
+[Unit]
+Description=Discord bot 'cringe-watch'
+
+[Service]
+ExecStart=/home/ubuntu/bot/app.js
+Restart=always
+User=nobody
+Group=nogroup
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/home/ubuntu/bot
+
+[Install]
+WantedBy=multi-user.target
+
